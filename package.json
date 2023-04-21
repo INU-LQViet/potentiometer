@@ -1,0 +1,26 @@
+{
+  "name": "sensorserver",
+  "version": "1.0.0",
+  "description": "The web server to receive the sensor signal and analysis",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "sensor",
+    "serial",
+    "port",
+    "socketio",
+    "potential",
+    "metor",
+    "robotics"
+  ],
+  "author": "lqviet",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "serialport": "^10.5.0",
+    "socket.io": "^4.6.1"
+  }
+}
